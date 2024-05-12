@@ -1,0 +1,64 @@
+@font-face {
+  font-family: SuperMarioWorld;
+  src: url('smw.ttf');
+}
+html {
+        height: 100%;
+        width: 100%;
+        scroll-behavior: smooth;
+}
+a {
+        color: cyan
+}
+button {
+        font-family: SuperMarioWorld, sans-serif;
+        background-color: #cdcd3c;
+        color: black;
+          border: none;
+        padding: 5px 5px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+}
+button img {
+        height: 20px
+}
+body {
+        font-family: SuperMarioWorld, sans-serif;
+        color: white;
+        margin: 0;
+        background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url(bg.gif);
+        background-attachment: fixed;
+        
+}
+#titleHeader {
+        background-image: url("bg.gif");
+        height: 50vh;
+        position: relative;
+        background-position-y: top;
+        background-attachment: fixed;
+}
+.botleft {
+        position: absolute;
+        width: 20%;
+        bottom: 0;
+        left: 0;
+}
+.title {
+        height: 10%;
+        margin-top: 4%
+}
+p {
+        padding-left: 10px
+}
+h2 {
+        padding-left: 10px
+}
