@@ -62,3 +62,8 @@ p {
 h2 {
         padding-left: 10px
 }
+.conceptContainer {
+        width: 90%;
+        overflow: scroll;
+        overflow-y: hidden
+}
